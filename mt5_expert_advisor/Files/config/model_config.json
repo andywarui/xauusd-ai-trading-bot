@@ -1,0 +1,34 @@
+{
+  "model_info": {
+    "file": "xauusd_ai_v1.onnx",
+    "type": "LightGBM",
+    "num_features": 68,
+    "num_classes": 3,
+    "num_trees": 102
+  },
+  "trading_config": {
+    "confidence_threshold": 0.55,
+    "min_confidence": 0.5,
+    "focus_signal": "LONG",
+    "max_trades_per_day": 5
+  },
+  "performance": {
+    "baseline_accuracy": 0.475,
+    "confidence_50_accuracy": 0.582,
+    "confidence_55_accuracy": 0.633,
+    "confidence_60_accuracy": 0.724,
+    "long_accuracy_55": 0.834,
+    "long_accuracy_60": 0.886
+  },
+  "class_mapping": {
+    "0": "SHORT",
+    "1": "HOLD",
+    "2": "LONG"
+  },
+  "usage_notes": [
+    "Use 55% confidence threshold for balanced trading",
+    "Use 60% confidence for conservative trading",
+    "LONG signals have 83% win rate at 55% confidence",
+    "Expected 4-5 trades per day at 55% threshold"
+  ]
+}

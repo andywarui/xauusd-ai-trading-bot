@@ -1,0 +1,23 @@
+{
+  "training_date": "2025-11-19T20:02:30.982845",
+  "model_type": "LightGBM",
+  "num_features": 68,
+  "num_classes": 3,
+  "train_samples": 142511,
+  "test_samples": 35628,
+  "accuracy": 0.47499157965645,
+  "best_iteration": 34,
+  "params": {
+    "objective": "multiclass",
+    "num_class": 3,
+    "metric": "multi_logloss",
+    "boosting_type": "gbdt",
+    "num_leaves": 31,
+    "learning_rate": 0.05,
+    "feature_fraction": 0.8,
+    "bagging_fraction": 0.8,
+    "bagging_freq": 5,
+    "verbose": -1,
+    "seed": 42
+  }
+}
