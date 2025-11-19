@@ -1,0 +1,43 @@
+# Data files (large)
+data/raw/*.csv
+data/processed/*.csv
+*.bi5
+
+# Model files
+*.pth
+*.pkl
+*.onnx
+*.h5
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+logs/*.log
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Credentials
+.env
+*credentials*.json
+broker_api_keys.txt
+
+# MT5 compiled files
+*.ex5
+*.ex4
