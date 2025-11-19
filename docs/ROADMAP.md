@@ -2,14 +2,14 @@
 
 ## Phase 1: Data Acquisition (Week 1)
 - [x] Setup project structure
-- [ ] Download 5 years XAUUSD M1 data
-- [ ] Validate data quality
-- [ ] Filter London-NY overlap
+- [x] Download 5 years XAUUSD M1 data
+- [x] Validate data quality
+- [x] Filter London-NY overlap
 
 ## Phase 2: Feature Engineering (Week 1-2)
-- [ ] Implement 60 feature pipeline
-- [ ] Verify feature calculations
-- [ ] Create training labels
+- [x] Implement 61 feature pipeline
+- [x] Verify feature calculations
+- [x] Create training labels
 
 ## Phase 3: Model Training (Week 2-3)
 - [ ] Train LightGBM classifier
